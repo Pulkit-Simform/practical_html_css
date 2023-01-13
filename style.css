@@ -1,7 +1,9 @@
 *{
-    font-family: 'Amaranth';font-size: 18px;
+    font-family: 'Amaranth';font-size: 18px;    
 }
-
+body{
+    background-color: #F1F3F6;
+}
 
 /* header */
 /* --------------------------------------------------- */
@@ -54,6 +56,7 @@ button.container-header__items{
 .input-search-box-wrap{
     position: relative;
     display: flex;
+    margin-right:300px;
 }
 
 .input-search-box-wrap svg{
@@ -143,4 +146,61 @@ button.container-header__items {
 }
 .more-cart:hover svg{
     transform: rotate(90deg);
+}
+
+
+
+/* Semi Section */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.semi-item-section{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    justify-content: center;
+    /* margin-top:10px; */
+}
+
+.semi-item-section-items{
+    margin:10px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.semi-item-section-items p{
+    font-weight: bold;
+    color:black;
+    font-family: "Courgette";
+    font-size:15px;
+}
+
+.semi-item-section-items img{
+    width: 50px;
+    height:50px;
+}
+
+.section__1{
+    padding:20px;
+    padding-left:80px;
+    padding-right:80px;
+    /* display: flex; */
+    /* width: fit-content; */
+}
+
+.first-section{
+    background-color: #fff;
+    display:flex;
+    flex-direction: row;    
+    align-items: flex-start;
+}
+
+.first-section-items{
+    margin:20px;
+
+}
+
+.first-section-items button{
+    align-self: flex-end;
+    /* float:right; */
+    display: flex;
 }

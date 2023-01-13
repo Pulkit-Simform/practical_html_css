@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
     <title>Practical Exam</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
             <svg width="20" height="20" viewBox="0 0 17 18" class="" xmlns="http://www.w3.org/2000/svg"><g fill="#2874F1" fill-rule="evenodd"><path class="_34RNph" d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203"></path><path class="_34RNph" d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467"></path></g></svg>
         </div>
         <button type="button" class="container-header__items">Login</button>
-        <a href="#" class="container-header__items">Become a Seller</a>
+        <!-- <a href="#" class="container-header__items">Become a Seller</a> -->
         <div class="container-header__items more-cart">
             <span>
                 More
@@ -24,5 +25,55 @@
         </div>
         <a href="#" class="container-header__items">Cart</a>    
     </header>
+
+    <div class="semi-item-section">
+        <div class="semi-item-section-items">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAB3CAMAAAAO5y+4AAAAwFBMVEWfHSD////v7+/u7u7w8PD9/f3z8/OZAAD5+fmeGh2WAACcAACTAACeGBufAACcDxObCQ6bAAj98PH14eL38PCnAACmIiXy9/f5///szM3/9/ju1tf36uv65+jiq6yNAAC9X2HgoaPWmZvntrfGYWPLbG/bk5bjuryyOTy5SEuzZWafJCa7bW7izMzCfX7HiImnOjuiLi+1LzOoQkPLXGDAREnPen25VFezExqtGx3Zio3Djo7SqqrRoKGuV1etAw6saCJHAAAPqUlEQVRogbVbCXuqOhOGCoTFEBAssuhxR6t1PdXPLvb//6tvJgHcsPV62pznuZ2LypuZzLyZCYMkw1CVBxhcqoCgXZN0IalNLlV0vBZquaQV1zS8HZf4jdVcqsjFNekO3GY9KnA9O1EKXOUYV/1x3FZ10HjIcNvVlpajKckP6Cuf4CpemuFWNHVMSSsQuD1irPQMTU/+eg+FxY/QSnFVHAoOOZc0fu0BJbgm6yBpYb0nqzp+qoeWJNWbGkhysjMkMwwADb4Xja1Y45LGv1dIeLeDJMAk/l8+IwHE1efTQBWKayGxO7owxMCRJGeLn2oDV5LYAA2raP6LS3r89kLVMukAJqHSSmFYpTC2kB5yY3eJZA8bKDUfDUmSSEeWGyloLkm2hy7lvziSsxFOreaLLAyrFcbmYNdxHy5xUUnyymfAwaS6J9f4DPCypvhjIkl0q+YYUe2AdjNuLjW9QMlwtwwQqmBSdUQ5LhvLA5NLxq6p+y8EpVGOFv8PVv1GfR8u9K2RVz/g6xutuGrmWA2FuiD/ZZlEhuqLyyU7BjQlqG2IJXALfQ/uneEKyEqlksURjCyOKpVoZ65SvKZ4LAcr0KRCMEZjN5tBC3/Z2rmSnQogvN9Bkgvpy/ht7Axq9b2GooR2DlagHQ2aX3Q3YKQ+AdvY4Tfxew0XpArgQsjsXv1Gh5TAlUxgLPd2Drf4vbgy4nIfMqxVuHFuwjWWfUu43QEXaKgMl1PIKZloudQYi5tQd3cTLADnFrdjcWMtSMIzvuKShIus5I4kpEhTMqldtpo3DeYFcA9NjV93vaBwqcJ/y+I3Wr3Gulawxd24oGpnbLnMu5U32qb90vVQmrv348ppu25SiY5u5queJVFijbtNZOU7x+OmbvJFcgZHnH2Eq+HIfAAGbl4x15K69vgvvRdXYob4a7XkMwguZXEEQZPzFWQKjxkcvR+2GG6sZHz1UPDVlfht3Bittww68m/Oc4LU+v6GNw7W1yv5lv8tX3nU+Clc0g1EwPpJXDnjqyyxEXuWhonN6AcWVgw71P0kbA3b43q/ARDw78BXYkbeZpjGzQikxuvdcXs+6Ka9rNsmYRQiWq6U8VUwrRLbfhy1N8PN3fx4MRgTtoM4vsIbSozsb1DKnJ+DLYYVX+WrxuZuevp2YLZ7lEplfKULMvEef8yPz4cdNnK+0lX4l+VXWRy9/pbCrO9/xRvN31LYDLWvcOXh7ygMeRcvVs5w5QK3ufsVhckw8bzE94/2BfQoXexPWP4Mzd/ANZj1uRuNxu3pZpNwsCK/ipph2hu+3p/ZfA8OzMDMrlbwleKNP+v1KiEmcX+MMZhTxrXOX/2IN4Lw5za+fLTnJUtm/C86qn/BzjfWA9eGke1fBiEiv2FtiJLqxfesWKmc8JU+uAfYEPu0QdhCXKCp98y1pGvQ6sKI1rDBwWBkfKX4q/+85TpkuTYgUwW0pr+lHA120Sd0EUNqyhe7OOkLsON6UIvrN0QueKQL3kcnqOT0OfGb6drlW80M0ZwpbuPcvG6czeAw2Cgp4augZ5chnSjIluuneff52QMUK+U3kfWpQ0B8Q+81P/DKFEORPMNcTmLSeIyDC74CzRudMqc2mOu6pmnB1J13TxdY8gcxscL2YsxOHs13WWT4JJb9SE5QYazAP058xlh1wigHq0h8lblvyYNjuwiru2w77/aen9OtyVUQI+qSJVhpWq1KYLrUBPOG4E506cvPoPIMdCdv8MGZrxLrc9Dy5EZwwletdlFsUtMkDjFdyUxzKPnDJHDLeD7b29U/hM0ElPP0Mds7T2JVGfydU1lOAM/NvnBuPWJ+bnoJxq+iBLrXGROz0Jas0xogJXNG5rj6aoL2mZnwP+9VcdDgvmfqMOJQulflxMKcFRYXpzonEltD6lrO9ezPqilLShIOR7Z15PJklqmoU2eGJ67MJADjETQnAZcmRHLmeDaZm2cB05wYkvksRwtnATOeUAp/1HIWJANQQwpeLXISZ3QCkM/p+7O6ZWi5xDIk6viyvwAVPGu9n711CPJRsXzGBAy3oAZL5Nhkixg9ypjAXBYMJ2mebjXWq+Artbc7iTMXPOLNJMSCyEQiiJag4iQCXJiQmugqKkJhDnFB/CzGowE0t+bxL/hL6sC1/WI/nX+E06P7G3ZHzvkqHh9vHWjTJX6TolP7sr62lmtw5diitdzJFvQR4mXCDyoJMUgIU3XcuXzwQuLCTxKf7wFvh9vTz97R+VWtf+Tx6LZz4jouYbxslyFT4HTgIgd5adqdTicGgdxhD18g89TbYgBDSINH+V74PgP8aEGKUFAPccw+wxPe0Id2wZKMk10cx+meSKhJrgEP4H0VQgzwqjCHuWkwEz5aoyemppnI0Roi0DXhs3fgrkiP04/ZdF3cmo6aZ3yl9w7A+LMci88aAindmyJ4OPdB5oBGjZ7IEublMRHAEzUzPXsCPGm9tat8kgevdTtnfKXrjbhIYQ3zI1F1dA95a0JItiz4Pc087qNqVom0aDukmc+u7bA9rFUVZvIsLMoAr/SwwNz15IbYB4tTq6NajABQ1eTUAEZ/zvdvHs2tGFlEq9JlZpYZkYzF+0fbWY/It0mhYe5ax/VR1HHPEzpknGeCFszvRkcHhzUlSmYp2HOCKlLIM248DTGsFSIjbqD3VuRo92U2YYxVp6gvBLCfG8IgHDLx0vcuhoZjuYT89wqdklUrkiqano5Pfs0WycfT0/RdxaVbQLws80+d9GOwXk+oRf4tHTPrHUmNB2fJq1t4zDtBCqxti1kR3AWu5SWGYeBRNBCJw5wv7MDcQaxKncu5p3x7VpMZPqpo7xffJUAG5OPAq8ZkQSfr9vw9jb34Y3IlE6fWONS1ihT1VtbZ3MzJ9A22VcLpjbEvVhARQc/luv32nnpJaG4Lx0uWZb8zrFFPDwRvqK1zZNiewaBfqUjBkjDoet8ms5qaYcX2AkwV+QkeqnqX6bPk7jrRcV7X2pGb6kCD55NV01i0p2BOjOQQsxx+k1rSkzB93ZnV6hbccX0xc7Y546uG3Ntdd9FsSsAmj/tp9z1M0up7YU/PhBD359uFg/NBPt9m9D27WGFIKRsZPx74qlNeCTpVsiJIk+7Mz+3p/cGUpOkBbXxMHbBt4jLh5iamry5zTa8MF3bfVpDVKfkRS7P0jA5IKdZVPVwQniHyEXnPVdz2meO4FvAUwT3awQVgEqa389F+ihw6KVs6+1U/wQ0/S92PZbto7cnlOc/HvL1eUIa5kIfhimsAuqlP++nsPdxTTASjiNvlo5ysSZ9nD5mde3ap++LeoHoxOIm/YJCp1SCDReIwXFWuTdChl3hmAh9zqLnr5DnhWdJ+NKwxGoP7ldotr1HoFusQUl3y+yzAQlV0aQgxEyY9m6eh5y/oIcmemwwDOO0myHVXcCVGe6rG4+jasRVu7mFV1D2QKYKvgIUXT9OFUfWK3Zdh2py0uvOn/dKgS1D8D24pkBddwaXEeg0ANxpc2zbxji1T6J1MMM2JPVy8Gct1jJozhlVg7w8mFrAAmL4uuQlqpUTOLHs0DBNFkpurP9cONVDfFCdFVFjgQ300d3nN8gaKA5myrEwBEmOGqD8p5KHcUmegpr3txGqgKMhXzd7m0zJZyeywCuK7PqRc0Rq1V5sQs29r6mDZZYqgxSTbq0LRNHqaLbP6052KTOR4GLt+Lyr4CmqzoAHpy+DzcmPCvClBOkE62PMSDzInF/wK6wUvIxqeZIdiwfeYfWNSAAlhVDuNYNaXG1pxzlDwlRp2Vmc60xGWCVTgPmGuFWdzw3ohMbKvs8LJQMW5rGMIGXQinS8w2TSKh5HH5+3hxamom2XnGKJPLqRXfq4jJK21RRbzVoibkPccducQ5WuxARolbmV1gpJz7+TyaAVT6VaVEQpl0pphfZTfzYaV2mffd2bz6XrBMGWn0vV8BDUOgxz38Kihfxlw6Lby+3aaYHZuYH2U61hNdH+fx4GDLHYd7TCMeqJlzzXyc4bGsKRa5RWm2F2fHDy+kPPajm0hv7sF6nSwcSQOYfNzFS0spUq2ED4TTcFXnI/OPNf3a3teH2Rz8nxQ8T/Lb8PI7DkOZyLXguznn4+neStTgav/vXr+i3nEvx8OU9ieYdj13SpWinpQ65oMN7hfe5zC+sNuKw2b6MtazlealrzONk/j8WrnuD/3SPIEFx8fNRqHh0bZOTAO30+aXu2XnmzYvIA/em511BfEe7zGP/Yo9GSwfoFb1legpb/yXEPKFL6O2/+FR5J84A5WPJcDXFUvnuOoaqOcPX5k2GGgHR4anT23GvyWukiR+tXndPHPP1eBctcReYkVatdws6dWtLS7677hDIaz9vixblvVkX6GKx414F5HYRe17UV7dmvj07eDbfHxX1SL084mPIBJouEK+wwUvV/fDoYtr+br8Y/5F2S22CKhHfdtZnyVx5EfJxmDBPc3BF0M96iz8Er8Zt2pakW/v+HrYljdb3GL/kn/5xpHJPrSuIJb9LllkqqEP9A3kjc3Grum8pA1UT4ghMA964sSTVitLI6N+zd8Ou7XxXGNlfKO5FOIkr6gipbFMTN3r4/34kJFWmttbUIl9zWP2m/7J2F5qVlvp7J3t3/xSlhuAnR1dSuuxwh56SSBFtyPiw9yIKcJ9KTz4l3BPeprRC4Jeo+vWC2CdD+useMYvIlSlS/7ck8aRHlDu6rGoKq4VvDWV6eFJ+Mx43Zj1zhpED3rRi2NX0XJpbAujGYNvj0dzebXj0cWP+jZqf+5z/wgiTzA3fXk19sSIPe1EXUfXcSN7u4zl7mdKT9yKnr9jNLztdwPLCgHgmRjM4k1la/0LenLVY9qcVtyH3t8BlkHjfF4KFcPwjg/m7FDBbkpHBMSK5kjaUXT91FfbhFHZw38oqMxtq1NhM31QW2UNzYXSQl7yemMdOQNP0UxeO2vPWh6iyeQp++JnPcFXX1PJAj/F+bX+BZlWGFDzVJs4zHKFt2gzayzx1ipmWGDWv5s7D/3mYPkR8U1PFwD2EDDvl2ueU+OdnwKDuaoMvYHCJb6l/dxTt+LAc4Gx0JYkKIRLrU7UPE5NJ8BP0VrtD4NZ3OJ+5W++Qsp6uEllXPJc6idwlLDta6JccK7G9AKdMSPWLWg5+AZV/ZCingP6NAQmvd9nbwXc8pXuSTrR1IyslPxeo6WAJuQHn9rJgLvJsMGfwEH3LieBhwya2h/OOUr+QD2/XsxleyVJ72fNoT0EGwcXEh8HUmLbcONi9evQiyq//29GL0IK72ieEH+0pUWW/Vm9hpUo0O24s76KcYd78U8PFyEM2AoleJlL300zCRAG7d+HPdY34PFsVxVD7jN2h24/wc6Tk4sa/C+KQAAAABJRU5ErkJggg==" />
+            <p>Top Offer</p>
+        </div>
+        <div class="semi-item-section-items">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" />
+            <p>Grocery</p>
+        </div>
+        <div class="semi-item-section-items">
+            <img loading="lazy" class="_396cs4" alt="Fashion" src="https://rukminim1.flixcart.com/flap/128/128/image/c12afc017e6f24cb.png?q=100">
+            <p>Fashion</p>
+        </div>
+        <div class="semi-item-section-items">
+            <img loading="lazy" class="_396cs4" alt="Electronics" src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100">
+            <p>Electronics</p>
+        </div>
+        <div class="semi-item-section-items">
+            <img loading="lazy" class="_396cs4" alt="Home" src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100">
+            <p>Home</p>
+        </div>
+        <div class="semi-item-section-items">
+            <img loading="lazy" class="_396cs4" alt="Appliances" src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100">
+            <p>Appliances</p>
+        </div>
+        <div class="semi-item-section-items">
+            <img loading="lazy" class="_396cs4" alt="Travel" src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100">
+            <p>Travel</p>
+        </div>
+        <div class="semi-item-section-items">
+            <img loading="lazy" class="_396cs4" alt="Beauty, Toys &amp; More" src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100">
+            <p>Beauty,Toys and more</p>
+        </div>
+        <div class="semi-item-section-items">
+            <img loading="lazy" class="_396cs4" alt="Two Wheelers" src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100">
+            <p>Two Wheelers</p>
+        </div>
+    </div>
+
+    <div class="section__1">
+        <div class="first-section">
+            <p class="first-section-items">Deals of the day</p>
+            <p class="first-section-items">22:07:36 left</p>
+            <button type="button" class="first-section-items">view all</button>
+        </div>
+        <div class="second-section">
+            
+        </div>
+    </div>
 </body>
 </html>

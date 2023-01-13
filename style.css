@@ -1,0 +1,12 @@
+.container-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:20px;
+    background-color: #2874F0;
+    justify-content: center;
+}
+
+.container-header__items{
+
+}

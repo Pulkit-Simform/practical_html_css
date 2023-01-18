@@ -1,6 +1,7 @@
 *{
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -66,7 +67,7 @@ input.container-header__items{
     outline: none;
     border:2px solid #aaa;
     border-radius: 4px;
-    animation: input_effect 5s 1;
+    /* animation: input_effect 5s 1; */
     /* margin-left:20px; */
 }
 
@@ -81,7 +82,7 @@ img.container-header__items{
     height: 30px;
     align-self: center;
     width: 100px;
-    animation: image_effect 2s infinite;
+    /* animation: image_effect 2s infinite; */
 }
 
 button.container-header__items{
@@ -336,7 +337,7 @@ a.container-header__items{
 .semi-item-section-items p{
     font-weight: bold;
     color:black;
-    font-family: "Courgette";
+    /* font-family: "Courgette"; */
     font-size:15px;
 }
 

@@ -59,14 +59,14 @@ body{
 }
 
 input.container-header__items{
-    width: 300px;
+    width: 500px;
     /* height: auto; */
     box-sizing: border-box;
     padding: 12px;
     outline: none;
     border:2px solid #aaa;
     border-radius: 4px;
-
+    animation: input_effect 5s 1;
     /* margin-left:20px; */
 }
 
@@ -81,6 +81,7 @@ img.container-header__items{
     height: 30px;
     align-self: center;
     width: 100px;
+    animation: image_effect 2s infinite;
 }
 
 button.container-header__items{
@@ -100,6 +101,13 @@ button.container-header__items{
     outline: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+button.container-header__items:hover{
+    width: 160px;
+    height:50px;
+    transition: all 0.5s;
+}
+
 
 a.container-header__items{
     color:whitesmoke;
@@ -207,9 +215,9 @@ a.container-header__items{
     text-align: center;
     /* height: auto; */
     /* align-items: center; */
-    margin: 50px;
+    margin: 10px;
 }
- 
+
 
 
 .container-section-items{
@@ -232,6 +240,8 @@ a.container-header__items{
 .col-2{
     grid-column-start: 1;
     grid-column-end: 3;
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
 
 .col-3{
@@ -263,6 +273,46 @@ a.container-header__items{
     font-weight: 500;
     outline: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container-section-items-right button:hover{    
+    width: 120px;            
+    transition: all 1s;
+    animation-name: button_effect;
+    animation-duration: 2s;
+}
+
+
+/* Animations */
+/* -------------------------------------- */
+@keyframes button_effect {
+    0% {box-shadow: 5px 5px 5px red;}
+    25% {box-shadow: 0px 5px 5px red;}
+    50%{box-shadow: 5px 5px 0px red;}
+    75%{box-shadow: 0px 0px 10px red;}
+    100%{box-shadow: -20px -20px 100px  red;}
+}
+
+@keyframes input_effect {
+    0% {width: 100px;}
+    25% {width: 200px;}
+    50% {width: 300px;}
+    75% {width: 400px;}
+    100% {width: 450px;}
+}
+
+@keyframes image_effect{
+    20% {
+        box-shadow: 10px 10px 20px  red;
+        transform: translate(-10px);
+    }
+    40% {box-shadow: -10px 10px 20px  red;}
+    60% {
+        box-shadow: -10px -10px 20px  red;
+        transform: translate(10px);
+    }
+    80% {box-shadow: 10px -10px 20px  red;}
+    100% {box-shadow: 30px 30px 200px  red;}
 }
 
 /* semi section */

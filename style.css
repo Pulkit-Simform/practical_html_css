@@ -74,7 +74,7 @@ input.container-header__items:focus{
     border-color:dodgerblue;
     box-shadow: 0 0 8px 0 dodgerblue;
     height: auto;
-    width: auto;
+    width: 500px;
 }
 
 img.container-header__items{
